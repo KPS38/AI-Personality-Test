@@ -1,0 +1,17 @@
+# Node / build artifacts
+node_modules/
+ai-personality-test/node_modules/
+ai-personality-test/.next/
+.next/
+
+# Prisma generated client
+/generated/
+
+# Environment variables / secrets
+.env
+ai-personality-test/.env
+*.env
+
+# Local dump files (do not commit data exports)
+local-data.sql
+local-data-inserts.sql
